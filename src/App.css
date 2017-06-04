@@ -1,0 +1,8 @@
+.url{
+  width: 270px;
+  text-overflow: ellipsis;
+  white-space: pre;
+  overflow: hidden;
+  font-size: 14px;
+  color: #888
+}

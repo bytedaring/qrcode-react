@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "QR Code",
+    "description": "Generate QR Code",
+    "version": "0.1",
+    "icons": {
+        "16": "./favicon.png",
+        "48": "./favicon.png",
+        "128": "./favicon.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "./favicon.png",
+            "38": "./favicon.png"
+        },
+        "default_popup": "index.html",
+        "default_title": "Generate QRCode"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
